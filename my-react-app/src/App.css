@@ -11,7 +11,6 @@ body {
   padding: 20px;
 }
 
-/* Navbar styling */
 .nav {
   display: flex;
   justify-content: center;
@@ -38,7 +37,6 @@ body {
   color: #1e90ff;
 }
 
-/* Footer styling */
 .footer {
   background-color: #333;
   color: white;
@@ -49,7 +47,6 @@ body {
   width: 100%;
 }
 
-/* CounterPage buttons */
 .counter-buttons button {
   margin: 5px;
   padding: 10px 20px;
@@ -63,4 +60,19 @@ body {
 
 .counter-buttons button:hover {
   background-color: #1e90ff;
+}
+
+.color-picker {
+  text-align: center;
+  margin-top: 20px;
+}
+.color-picker input {
+  margin: 20px;
+  padding: 10px;
+}
+.color-picker div {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
 }
