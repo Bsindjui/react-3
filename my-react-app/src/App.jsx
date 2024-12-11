@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import CounterPage from './pages/CounterPage';
+import './App.css';
 
 function App() {
   return (
