@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import CounterPage from './pages/CounterPage';
 import './App.css';
+import ColorPickerPage from './pages/ColorPickerPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/counter" element={<CounterPage />} />
+            <Route path="/color-picker" element={<ColorPickerPage />} />
           </Routes>
         </main>
         <Footer />
